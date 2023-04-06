@@ -3,17 +3,22 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+	  
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 
     <!-- Own Styles -->
     <link rel="stylesheet" href="css/styles.css">
+	<link href="https://www.dafontfree.net/embed/c2lmb25uLWJhc2ljJmRhdGEvNDYvcy82MzY2My9TSUZPTk5fQkFTSUMub3Rm" rel="stylesheet" type="text/css"/>
+	
+	  
 
     <!-- Bootstrap Javascript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+	  
 
-    <title>PRJ4 Base Group Template &mdash; Landing Page</title>
+    <title>BeBold &mdash; Landing Page</title>
 
     <!-- Google Analytics code goes just below here (check PRJ4 Guide for details) -->
 
@@ -23,26 +28,33 @@
   <body class="h-100 d-flex flex-column">
 
     <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
-    <nav class="navbar navbar-expand-lg navbar-light">
+  <navbar>
+	  <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <img src="images/logo/small-logo-white.png" width="40" alt="Breda University of Applied Sciences">
+         
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active navbar-font " aria-current="page" href="index.html">Home</a>
+           
+			<li class="nav-item">
+              <a class="nav-link active navbar-font" aria-current="page" href="index.html">HOME</a>
             </li>
-			  
-		<!-- Not used rn  -->
-			  
-         <!--   <li class="nav-item dropdown">
+            <li class="nav-item">
+              <a class="nav-link navbar-font" href="https://buas-media-interactive.github.io/prj4-guide/" target="_blank">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navbar-font" href="corporate.html">OUR OFFER</a>
+            </li>
+			<li class="nav-item">
+              <a class="nav-link navbar-font" href="corporate.html">SUPPORT US</a>
+            </li>
+			  <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle navbar-font" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                UX Patterns
-              </a>
+               CORPORATE</a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="hero.html">Hero Section</a></li>
                 <li><a class="dropdown-item" href="carousel.html">Carousel</a></li>
@@ -51,21 +63,16 @@
                 <li><a class="dropdown-item" href="cards.html">Cards</a></li>
               </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link navbar-font" href="https://buas-media-interactive.github.io/prj4-guide/" target="_blank">PRJ4 Guide</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link navbar-font" href="corporate.html">Corporate</a>
-            </li> -->
           </ul>
         </div>
       </div>
     </nav>
+	</navbar>
     <!-- End of navigation bar -->
 
     <!-- Start of main placeholder in landing page -->
     <main class="h-100 d-flex flex-column justify-content-center align-items-center">
-      <img class="mb-4" src="images/logo/main-logo.png" width="100">
+      <img class="mb-4" src="ima" width="100">
       <h1>Hello! We are BeBold</h1>
       <h5 class="fst-italic mb-5">Coming soon…</h5>
       <div class="container text-center">
@@ -76,6 +83,20 @@
       </div>
     </main>
     <!-- End of main placeholder -->
-
+<footer>
+            <ul class="list-inline">
+				<li class="list-inline-item social"><img href="https://m.facebook.com/BeBold-111204951881798" src="bebold/images/facebook-white.svg" alt="facebook" width="40" height="40"></li>
+                <li class="list-inline-item social"><img href="https://www.instagram.com/bebold_nl/?igshid=YmMyMTA2M2Y%3D&fbclid=IwAR0Htmtq4rpgzKg_-L1ggJnTIUzi47EnQt1DFBORaQv5ok_N8gw_-S0pm3E" src="bebold/images/instagram-white.svg" alt="instagram" width="40" height="40"></li>  
+            </ul>
+            <p class="email"><a href="mailto:bebold.netherlands@gmail.com">bebold.netherlands@gmail.com</a></p>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#">About</a></li>
+                <li class="list-inline-item"><a href="#">Our Offer</a></li>
+                <li class="list-inline-item"><a href="#">Support Us</a></li>
+                <li class="list-inline-item"><a href="#">Corporate</a></li>
+            </ul>
+            <p class="copyright">BeBold © 2023</p>
+</footer>
   </body>
 </html>
