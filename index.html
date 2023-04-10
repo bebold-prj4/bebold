@@ -1,88 +1,165 @@
 <!doctype html>
-<html lang="en" class="h-100">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<html>
+	
+ <head>
 	  
+ <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-
-    <!-- Own Styles -->
+<!-- Own Styles -->
+	 
     <link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://www.dafontfree.net/embed/c2lmb25uLWJhc2ljJmRhdGEvNDYvcy82MzY2My9TSUZPTk5fQkFTSUMub3Rm" rel="stylesheet" type="text/css"/>
 	
-	  
-
-    <!-- Bootstrap Javascript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-	  
-
-    <title>BeBold &mdash; Landing Page</title>
+	 
+<title>BeBold &mdash; Landing Page</title>
 
     <!-- Google Analytics code goes just below here (check PRJ4 Guide for details) -->
 
     <!-- End of Google Analytics code -->
 
-  </head>
-  <body class="h-100 d-flex flex-column">
+</head>
+	
+<body>
+	
+<!-- NAVBAR -->
 
-    <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
-	  <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-         
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-           
-			<li class="nav-item">
-              <a class="nav-link active navbar-font" aria-current="page" href="index.html">HOME</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link navbar-font" href="https://buas-media-interactive.github.io/prj4-guide/" target="_blank">ABOUT</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link navbar-font" href="corporate.html">OUR OFFER</a>
-            </li>
-			<li class="nav-item">
-              <a class="nav-link navbar-font" href="corporate.html">SUPPORT US</a>
-            </li>
-			  <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle navbar-font" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-               CORPORATE</a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="hero.html">Hero Section</a></li>
-                <li><a class="dropdown-item" href="carousel.html">Carousel</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="two-columns.html">Two-column Layout</a></li>
-                <li><a class="dropdown-item" href="cards.html">Cards</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- End of navigation bar -->
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
 
-    <!-- Start of main placeholder in landing page -->
-    <main class="h-100 d-flex flex-column justify-content-center align-items-center">
-      <img class="mb-4" src="ima" width="100">
-      <h1>Hello! We are BeBold</h1>
-      <h5 class="fst-italic mb-5">Coming soon…</h5>
-      <div class="container text-center">
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-      </div>
-    </main>
-    <!-- End of main placeholder -->
+<div style="padding-left:16px"></div>
+  
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+    
+<!-- MAIN PAGE -->
+
+<main>
+	
+<!-- HEADER -->
+	
+<section>
+	
+  <!-- HEADER - LOGO -->
+	
+  <section class="w3-panel header">
+   <div class="w3-cell w3-mobile"> <img src="images/logo/logo-wide.svg" alt="logo" width="100%"> </div>
+  </section>
+   
+  <!-- HEADER - QUOTE -->
+	
+  <section class="w3-panel header">
+	<div class="header-quote w3-cell w3-mobile">
+	 <h1>Take a <span class="word-highlight">BOLD</span> move and join our community of expats in the Netherlands!</h1>
+	 <button class="button">JOIN NOW</button>
+   </div>
+  </section>
+	
+</section>
+	
+<!-- SECTION 1 - TEXT ABOUT OUR BRAND -->
+
+<section class="section1">
+	
+  <!---SECTION 1 - FIRST ROW -->
+	
+  <section class="w3-panel">
+    <div class=" w3-panel w3-half col-6 w3-mobile">
+	<img src="images/main-photo-globe.jpg" alt="men-jumping-sunset" width="100%">
+    </div>
+    <div class="w3-panel w3-half w3-mobile col-6 main-text">
+	<h3> Moving out of home and settling in an unknown environment can be a difficult… </h3>
+	<h2>But not with BeBold! </h2>
+    </div>	
+  </section>
+	
+  <!---SECTION 1 - SECOND ROW -->
+	
+  <section class="w3-panel">
+    <div class="w3-panel w3-half w3-mobile">
+	  <h2 class="main-text">With us, you will:</h2>
+      <h3>
+	   <ul>
+        <li>Find a great place to stay immidiately after ariving in the Netherlands - no struggles and stress. Check it here, it’s a steal!</li>
+	    <li>Gain new expat-friends from all-over the world</li>
+	    <li>Get to know the ins and outs of living in the Netherlands</li>
+	    <li>Stay confident and open for new experiences!</li>
+       </ul>
+	  </h3>
+	</div>
+	<div class=" w3-panel col-6 w3-mobile">
+	 <img src="images/main-photo-people.jpg" alt="men-jumping-sunset" width="100%">
+    </div>
+  </section>
+	
+  <!---SECTION 1 - THIRD ROW -->
+	
+  <section class="w3-panel main-text">
+	<h2> Moving abroad is an exciting experience so let’s make the best out of it together!</h2>
+  </section>
+	
+</section>
+
+	
+<!-- SECTION 2 - OUR VALUES -->
+<section>
+
+	<!-- SECTION 2 - TEXT -->
+	
+	<section class="w3-panel w3-mobile main-text">
+	<h2 class="values-title">At BeBold we stand for</h2>
+    </section>
+	
+	<!-- SECTION 2 - VALUES -->
+	
+	<section class="w3-panel w3-mobile main-text">
+	
+	<ul class="list-inline ul-one">
+				<li class="list-inline-item w3-quarter col-4 main-value">
+				 <img src="images/values-icons/value-action.svg" alt="action-icon" width="75%">
+				  <p>action</p>
+	            </li>
+		        <li class="list-inline-item w3-quarter col-4 main-value">
+				 <img src="images/values-icons/value-boldness.svg" alt="boldness-icon" width="75%">
+				 <p>boldness</p>
+	            </li>
+		        <li class="list-inline-item w3-quarter col-4 main-value">
+				 <img src="images/values-icons/value-confidence.svg" alt="confidence-icon" width="75%">
+				 <p>confidence</p>
+	            </li>
+		        <li class="list-inline-item w3-quarter col-4 main-value">
+				 <img src="images/values-icons/value-persistence.svg" alt="persistence-icon" width="75%">
+				 <p>persistence</p>
+	            </li>
+		</ul>	
+	</section>
+	
+	<section class="center">
+	<button class="button"> LEARN MORE </button>
+	</section>
+	
+</section>	
+</main>
+    
+<!-- FOOTER -->
 <footer>
-            <ul class="list-inline">
+            <ul class="list-inline ul-one">
 				<li class="list-inline-item social">
 				 <a href="https://facebook.com/BeBold-111204951881798">
 				 <img src="images/facebook-white.svg" alt="facebook" width="40" height="40">
@@ -95,11 +172,10 @@
 				</li>
             </ul>
             <p class="email"><a href="mailto:bebold.netherlands@gmail.com">bebold.netherlands@gmail.com</a></p>
-            <ul class="list-inline">
+            <ul class="list-inline ul-one">
                 <li class="list-inline-item"><a href="#">Home</a></li>
                 <li class="list-inline-item"><a href="#">About</a></li>
                 <li class="list-inline-item"><a href="#">Our Offer</a></li>
-                <li class="list-inline-item"><a href="#">Support Us</a></li>
                 <li class="list-inline-item"><a href="#">Corporate</a></li>
             </ul>
             <p class="copyright">BeBold © 2023</p>
