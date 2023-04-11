@@ -33,6 +33,11 @@ h3 {
 	font-family: Raleway, sans-serif !important;
 }
 
+h4 {
+	font-family: Raleway, sans-serif !important;
+	text-align: left;
+}
+
 /* Button */
 
 .button { 
@@ -202,6 +207,12 @@ font-weight: 1000;
 	color: #fdffff;
 }
 
+.section1-offer {
+	background-color: #B10F2E;
+	color: #fdffff;
+}
+
+
 .main-text {
 	text-align: center;
 
@@ -273,4 +284,3 @@ a:hover {
   text-decoration: none;
  font-weight: bolder
 }
-
