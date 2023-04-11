@@ -40,7 +40,7 @@ font-size: 20px !important;
 padding: 6px 22px;
 border-radius: 8px;
 background-color: #3243c2;
-border: none;
+border:4px solid #3243c2; /* Green */;
 color: white;
 text-align: center;
 text-decoration: none;
@@ -51,9 +51,11 @@ transition-duration: 0.3s;
 }
 
 .button:hover {
-  background-color: white;
-  color: #3243c2;
-  border: 4px solid #3243c2;
+  background-color: #fdffff;
+  color:#3243c2;;
+  border:4px solid #3243c2;
+  font-size: 20px !important;
+  border-radius: 8px;
 }
 
 /* Re-usable Classes */
@@ -66,6 +68,24 @@ transition-duration: 0.3s;
 .center {
 	align-content: center !important;
 	text-align: center !important;
+}
+
+/* Font Color */
+
+.font-blue {
+	color: #3243c2;
+}
+
+.font-orange {
+	color: #de7c5a;
+}
+
+.font-red {
+	color: #b10f2e;
+}
+
+.font-black {
+	color: #280000;
 }
 
 /* Columns and Responsive Layout */
@@ -115,18 +135,19 @@ transition-duration: 0.3s;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  font-weight: 600;
 }
 
 .topnav a:hover {
   color: #fdffff;
   background-color: transparent;
   text-decoration: none;
- font-weight: bolder
+  font-weight: bolder;
 }
 
-.topnav a.active {
-  background-color: #28000;
-  color: white;
+.topnav a:active {
+  color: #fdffff;
+  background-color: #810B21 !important;
 }
 
 .topnav .icon {
@@ -178,7 +199,7 @@ font-weight: 1000;
 
 .section1 {
 	background-color: #280000;
-	color: #fdffff
+	color: #fdffff;
 }
 
 .main-text {
@@ -186,10 +207,19 @@ font-weight: 1000;
 
 }
 
+.section1-quote {
+	
+	padding: 40px;
+	
+}
+
+
 /* Section 3 - Values */
 
 .main-value {
 	padding: 40px;
+	font-weight: 600;
+	font-family: 'sifonn-basic', sans-serif !important;
 }
 
 /* Footer */
@@ -211,9 +241,11 @@ footer {
   padding: 0;
 }
 
+.social
+
 .email {
-	font-size: 22px;
-	font-weight: bolder
+	font-size: 22px !important;
+	font-weight: 600 !important;
 	
 }
 
@@ -222,10 +254,6 @@ footer {
 	font-weight: 200
 }
 
-.social:hover {
-	transform: scale(1.1);
-	
-}
 
 a:link {
   color: #fdffff;
@@ -244,11 +272,5 @@ a:hover {
   background-color: transparent;
   text-decoration: none;
  font-weight: bolder
-}
-
-a:active {
-  color:  #280000;
-  background-color: transparent;
-  text-decoration: underline;
 }
 
