@@ -44,10 +44,6 @@ h4 {
 	font-size: 16px !important;
 }
 
-h4 {
-	font-family: Raleway, sans-serif !important;
-	text-align: left;
-}
 
 /* Button */
 
@@ -229,6 +225,7 @@ font-weight: 1000;
 
 }
 
+
 .section1-ul {
   list-style-type: none;
   margin: 0;
@@ -286,6 +283,7 @@ footer {
 	font-weight: 600 !important;
 	
 }
+
 
 .copyright {
 	font-size: 12px;
