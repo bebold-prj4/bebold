@@ -26,10 +26,10 @@
 <!-- NAVBAR -->
 
 <div class="topnav" id="myTopnav">
-  <a href="#" class="active">HOME</a>
-  <a href="#">ABOUT</a>
-  <a href="#">OUR OFFER</a>
-  <a href="#">CORPORATE</a>
+  <a href="index.html" class="active">HOME</a>
+  <a href="about.html">ABOUT</a>
+  <a href="ouroffer.html">OUR OFFER</a>
+  <a href="corporate.html">CORPORATE</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
@@ -54,20 +54,18 @@ function myFunction() {
 	
 <!-- HEADER -->
 	
-<section>
+<section class="header">
 	
   <!-- HEADER - LOGO -->
 	
-  <section class="w3-panel header">
-   <div class="w3-cell w3-mobile"> <img src="images/logo/logo-wide.svg" alt="logo" width="100%"> </div>
-  </section>
+   <div class="w3-cell w3-mobile center" style="padding-top: 30px"> <img src="images/logo/logo-long-white.svg" alt="logo" width="80%"> </div>
    
   <!-- HEADER - QUOTE -->
 	
-  <section class="w3-panel header">
+  <section class="w3-container header">
 	<div class="header-quote w3-cell w3-mobile">
 	 <h1>Take a <span class="word-highlight">BOLD</span> move and join our community of expats in the Netherlands!</h1>
-	 <button class="button">JOIN NOW</button>
+	 <button class="button"><a href="ouroffer.html">JOIN NOW</a></button>
    </div>
   </section>
 	
@@ -80,20 +78,20 @@ function myFunction() {
   <!---SECTION 1 - FIRST ROW -->
 	
   <section class="w3-panel">
-    <div class=" w3-panel w3-half col-6 w3-mobile">
-	<img src="images/main-photo-globe.jpg" alt="men-jumping-sunset" width="100%">
+    <div class="w3-half col-6 w3-mobile">
+	<img src="images/home-page/images/main-photo-globe.jpg" alt="globe" width="100%" class="w3-round" style="background-color: #b10f2e">
     </div>
-    <div class="w3-panel w3-half w3-mobile col-6 main-text">
-	<h2 style="padding: 40px"> Moving out of home and settling in an unknown environment can be a difficult… </h2>
-	<h2>BUT NOT WITH BEBOLD! </h2>
+    <div class="w3-half w3-mobile col-6 main-text">
+	<h2 style="padding: 40px"> Moving out of home and settling in an unknown environment can be difficult… </h2>
+	<h2 class="font-red">BUT NOT WITH BEBOLD! </h2>
     </div>	
   </section>
 	
   <!---SECTION 1 - SECOND ROW -->
 	
   <section class="w3-panel">
-    <div class="w3-panel w3-half w3-mobile">
-	  <h2 class="main-text">WITH US YOU WILL</h2>
+    <div class="w3-half w3-mobile">
+	  <h2 class="main-text font-red">WITH US YOU WILL</h2>
       <h3>
 	   <ul class="section1-ul">
         <li class="section1-list">Find a great place to stay immidiately after ariving in the Netherlands</li>
@@ -104,14 +102,14 @@ function myFunction() {
        </ul>
 	  </h3>
 	</div>
-	<div class=" w3-panel col-6 w3-mobile">
-	 <img src="images/main-photo-people.jpg" alt="men-jumping-sunset" width="100%">
+	<div class="col-6 w3-mobile">
+	 <img src="images/home-page/images/main-photo-people.jpg" alt="people" width="100%" class="w3-round" style="background-color: #b10f2e">
     </div>
   </section>
 	
   <!---SECTION 1 - THIRD ROW -->
 	
-  <section class="w3-panel main-text section1-quote">
+  <section class="w3-panel main-text section1-quote" style="color: #fdffff">
 	<h1> Moving abroad is an exciting experience so let’s make the best out of it together!</h1>
   </section>
 	
@@ -133,26 +131,26 @@ function myFunction() {
 	
 	<ul class="list-inline ul-one">
 				<li class="list-inline-item w3-quarter col-4 main-value">
-				 <img src="images/values-icons/value-action.svg" alt="action-icon" width="75%">
+				 <img src="images/home-page/values-icons/value-action.svg" alt="action-icon" width="75%">
 				  <h3 class="font-blue">action</h3>
 	            </li>
 		        <li class="list-inline-item w3-quarter col-4 main-value">
-				 <img src="images/values-icons/value-boldness.svg" alt="boldness-icon" width="75%">
+				 <img src="images/home-page/values-icons/value-boldness.svg" alt="boldness-icon" width="75%">
 				 <h3 class="font-orange">boldness</h3>
 	            </li>
 		        <li class="list-inline-item w3-quarter col-4 main-value">
-				 <img src="images/values-icons/value-confidence.svg" alt="confidence-icon" width="75%">
+				 <img src="images/home-page/values-icons/value-confidence.svg" alt="confidence-icon" width="75%">
 				 <h3 class="font-red">confidence</h3>
 	            </li>
 		        <li class="list-inline-item w3-quarter col-4 main-value font-black">
-				 <img src="images/values-icons/value-persistence.svg" alt="persistence-icon" width="75%">
+				 <img src="images/home-page/values-icons/value-persistence.svg" alt="persistence-icon" width="75%">
 				 <h3 class="font-black">persistence</h3>
 	            </li>
 		</ul>	
 	</section>
 	
 	<section class="center">
-	<button class="button"> LEARN MORE </button>
+	<button class="button"><a href="about.html">LEARN MORE</a></button>
 	</section>
 	
 </section>	
@@ -163,21 +161,21 @@ function myFunction() {
             <ul class="list-inline ul-one">
 				<li class="list-inline-item social">
 				 <a href="https://facebook.com/BeBold-111204951881798">
-				 <img src="images/facebook-white.svg" alt="facebook" width="40" height="40">
+				 <img src="images/social-icons/facebook-white.svg" alt="facebook" width="40" height="40">
 				 </a> 
 	            </li>  
 				<li class="list-inline-item social">
 				 <a href="https://www.instagram.com/bebold_nl/?igshid=YmMyMTA2M2Y%3D&fbclid=IwAR3vsERjYuMyCCqOlI0DdeJEFMeduJCFt_6sbGoapiGpzDu4STGfscOCx_s">
-				 <img src="images/instagram-white.svg" alt="instagram" width="40" height="40">
+				 <img src="images/social-icons/instagram-white.svg" alt="instagram" width="40" height="40">
 				</a>
 				</li>
             </ul>
             <p class="email"><a href="mailto:bebold.netherlands@gmail.com">bebold.netherlands@gmail.com</a></p>
             <ul class="list-inline ul-one">
-                <li class="list-inline-item"><a href="#">Home</a></li>
-                <li class="list-inline-item"><a href="#">About</a></li>
-                <li class="list-inline-item"><a href="#">Our Offer</a></li>
-                <li class="list-inline-item"><a href="#">Corporate</a></li>
+                <li class="list-inline-item link"><a href="index.html">Home</a></li>
+                <li class="list-inline-item link"><a href="about.html">About</a></li>
+                <li class="list-inline-item link"><a href="ouroffer.html">Our Offer</a></li>
+                <li class="list-inline-item link"><a href="corporate.html">Corporate</a></li>
             </ul>
             <p class="copyright">BeBold © 2023</p>
 </footer>

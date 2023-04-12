@@ -10,14 +10,22 @@
 
 body {
 	font-family: Raleway, sans-serif !important;
-	background-color: #F8F6F7;
+	background-color: #Fdffff;
 	margin: 0; 
+	color: #280000
 }
 
 main {
-	padding-top: 40px;
-	padding-bottom: 40px;
 	background-color: #fdffff;
+	padding-bottom: 40px;
+	padding-top: 0px;
+}
+
+.container {
+	padding-right: 30px;
+	padding-left: 30px;
+	box-sizing: border-box;
+	background-color: #b10f2e
 }
 
 /* Text size and fonts */
@@ -64,7 +72,7 @@ transition-duration: 0.3s;
 
 .button:hover {
   background-color: #fdffff;
-  color:#3243c2;;
+  color: #3243c2;
   border:4px solid #3243c2;
   font-size: 18px !important;
   border-radius: 8px;
@@ -98,6 +106,10 @@ transition-duration: 0.3s;
 
 .font-black {
 	color: #280000;
+}
+
+.font-white {
+	color: #fdffff;
 }
 
 /* Columns and Responsive Layout */
@@ -158,9 +170,9 @@ transition-duration: 0.3s;
   font-weight: bolder;
 }
 
-.topnav a:active {
-  color: #fdffff;
-  background-color: #810B21 !important;
+.topnav a.active {
+	border-bottom:5px solid #fdffff;
+	
 }
 
 .topnav .icon {
@@ -189,16 +201,19 @@ transition-duration: 0.3s;
   }
 }
 
-/* Header  */
+/* Main Page - Header  */
 
 .header {
 	align-content: center;
+	background-color: #280000;
+	color: #fdffff;
 }
 .header-quote {
 	text-align: center;
 	font-size: 30px;
 	padding-left: 40px;
 	padding-right: 40px;
+	padding-bottom: 40px;
 	font-weight: 400;
 	font-family: Raleway, sans-serif
 }
@@ -208,11 +223,11 @@ color: #3243c2;
 font-weight: 1000;
 }
 
-/* Section 1 - main text */
+/* Main Page - Section 1 - Main Text */
 
 .section1 {
-	background-color: #280000;
-	color: #fdffff;
+	background-color: #fdffff;
+	color: #280000;
 }
 
 .section1-offer {
@@ -220,6 +235,11 @@ font-weight: 1000;
 	color: #fdffff;
 }
 
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+}
 
 .main-text {
 	text-align: center;
@@ -248,11 +268,10 @@ font-weight: 1000;
 }
 
 
-/* Section 3 - Values */
+/* Main Page - Section 3 - Values */
 
 .main-value {
 	padding: 40px;
-	font-weight: 600 !important;
 	font-family: 'Josefin Sans', sans-serif !important;
 }
 
@@ -293,19 +312,16 @@ footer {
 
 
 a:link {
-  color: #fdffff;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:visited {
-  color:  #fdffff;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:hover {
-  color: #fdffff;
   background-color: transparent;
   text-decoration: none;
  font-weight: bolder
