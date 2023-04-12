@@ -235,6 +235,11 @@ font-weight: 1000;
 	color: #fdffff;
 }
 
+.section-corporate {
+	background-color: #fdffff;
+	color:#000000;
+}
+
 img {
   border: 1px solid #ddd;
   border-radius: 4px;
@@ -267,6 +272,24 @@ img {
 	
 }
 
+/* Table Design*/
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #B10F2E;
+  color: white;
+}
 
 /* Main Page - Section 3 - Values */
 
