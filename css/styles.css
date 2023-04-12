@@ -44,6 +44,7 @@ h4 {
 	font-size: 16px !important;
 }
 
+
 /* Button */
 
 .button { 
@@ -214,10 +215,17 @@ font-weight: 1000;
 	color: #fdffff;
 }
 
+.section1-offer {
+	background-color: #B10F2E;
+	color: #fdffff;
+}
+
+
 .main-text {
 	text-align: center;
 
 }
+
 
 .section1-ul {
   list-style-type: none;
@@ -277,6 +285,7 @@ footer {
 	
 }
 
+
 .copyright {
 	font-size: 12px;
 	font-weight: 200
@@ -301,4 +310,3 @@ a:hover {
   text-decoration: none;
  font-weight: bolder
 }
-
