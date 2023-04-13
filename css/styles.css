@@ -320,7 +320,7 @@ input[type=text], select, textarea {
 }
 
 /* Button Contact Form */
-input[type=submit] {
+input[type=button] {
 font-size: 18px !important;
 padding: 6px 22px;
 border-radius: 8px;
@@ -336,7 +336,7 @@ transition-duration: 0.3s;
 cursor: pointer;
 }
 
-input[type=submit]:hover {
+input[type=button]:hover {
   background-color: #fdffff;
   color: #3243c2;
 }
