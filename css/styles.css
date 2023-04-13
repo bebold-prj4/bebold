@@ -247,6 +247,10 @@ img {
 }
 
 
+.img-center {
+	align-content: center !important;
+}
+
 .main-text {
 	text-align: center;
 
@@ -375,7 +379,7 @@ footer {
 
 .copyright {
 	font-size: 12px;
-	font-weight: 200
+	font-weight: 200;
 }
 
 
