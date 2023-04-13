@@ -252,6 +252,9 @@ img {
 
 }
 
+.corporate-text {
+	text-align: justify;
+}
 
 .section1-ul {
   list-style-type: none;
