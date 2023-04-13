@@ -5,6 +5,112 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /* General Styles and Classes */
+  
+/* Layout */
+
+body {
+	font-family: Raleway, sans-serif !important;
+	background-color: #Fdffff;
+	margin: 0; 
+	color: #280000
+}
+
+main {
+	background-color: #fdffff;
+	padding-bottom: 40px;
+	padding-top: 0px;
+}
+
+.container {
+	padding-right: 30px;
+	padding-left: 30px;
+	box-sizing: border-box;
+	background-color: #b10f2e
+}
+
+/* Text size and fonts */
+
+h1 {
+	font-family: Raleway, sans-serif !important;
+	font-weigh: bold !important;
+	font-size: 28px;
+}
+
+h2 {
+	font-family: 'Josefin Sans', sans-serif !important;
+	font-size: 24px;
+}
+
+h3 {
+	font-family: Raleway, sans-serif !important;
+	font-size: 20px !important;
+	font-weight: bold;
+}
+
+h4 {
+	font-family: Raleway, sans-serif !important;
+	font-size: 16px !important;
+}
+
+
+/* Button */
+
+.button { 
+font-size: 18px !important;
+padding: 6px 22px;
+border-radius: 8px;
+background-color: #3243c2;
+border:4px solid #3243c2; /* Green */;
+color: white;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-family: 'Josefin Sans', sans-serif ;
+font-weight: bold!important;
+transition-duration: 0.3s;	
+}
+
+.button:hover {
+  background-color: #fdffff;
+  color: #3243c2;
+  border:4px solid #3243c2;
+  font-size: 18px !important;
+  border-radius: 8px;
+}
+
+/* Re-usable Classes */
+
+.list-inline-item {
+  display: inline;
+	padding: 5px;
+}
+
+.center {
+	align-content: center !important;
+	text-align: center !important;
+}
+
+/* Font Color */
+
+.font-blue {
+	color: #3243c2;
+}
+
+.font-orange {
+	color: #de7c5a;
+}
+
+.font-red {
+	color: #b10f2e;
+}
+
+.font-black {
+	color: #280000;
+}
+
+.font-white {
+	color: #fdffff;
+}
 
 /* Columns and Responsive Layout */
 
@@ -93,7 +199,154 @@
     display: block;
     text-align: left;
   }
+}
+
+/* Main Page - Header  */
+
+.header {
+	align-content: center;
+	background-color: #280000;
+	color: #fdffff;
+}
+.header-quote {
+	text-align: center;
+	font-size: 30px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 40px;
+	font-weight: 400;
+	font-family: Raleway, sans-serif
+}
 	
+.word-highlight {
+color: #3243c2;
+font-weight: 1000;
+}
+
+/* Main Page - Section 1 - Main Text */
+
+.section1 {
+	background-color: #fdffff;
+	color: #280000;
+}
+
+.section1-offer {
+	background-color: #B10F2E;
+	color: #fdffff;
+}
+
+.section-corporate {
+	background-color: #fdffff;
+	color:#000000;
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+
+.img-center {
+	align-content: center !important;
+}
+
+.main-text {
+	text-align: center;
+
+}
+
+.corporate-text {
+	text-align: justify;
+}
+
+.section1-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; 
+  text-align: center;
+}
+
+.section1-list {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.section1-quote {
+	
+	padding: 40px;
+	background-color: #b10f2e
+	
+}
+
+/* Table Design*/
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #B10F2E;
+  color: white;
+}
+
+/* Main Page - Section 3 - Values */
+
+.main-value {
+	padding: 40px;
+	font-family: 'Josefin Sans', sans-serif !important;
+}
+
+/* Contact Form*/
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px;
+  border: 1px solid #b10f2e;
+  border-radius: 4px;
+  box-sizing: border-box; 
+  margin-top: 6px;
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+/* Button Contact Form */
+input[type=submit] {
+font-size: 18px !important;
+padding: 6px 22px;
+border-radius: 8px;
+background-color: #3243c2;
+border:4px solid #3243c2; /* Green */;
+color: white;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-family: 'Josefin Sans', sans-serif ;
+font-weight: bold!important;
+transition-duration: 0.3s;
+cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #fdffff;
+  color: #3243c2;
+}
+
+.container-contact-form {
+  border-radius: 5px;
+  background-color: #280000;
+  padding: 20px;
+}
+
 /* Footer */
 
 footer {
@@ -145,260 +398,3 @@ a:hover {
   text-decoration: none;
  font-weight: bolder
 }
-  
-/* Layout */
-
-body {
-	font-family: Raleway, sans-serif !important;
-	background-color: #Fdffff;
-	margin: 0; 
-	color: #280000
-}
-
-main {
-	background-color: #fdffff;
-	padding-bottom: 40px;
-	padding-top: 0px;
-}
-
-.container {
-	padding-right: 30px;
-	padding-left: 30px;
-	box-sizing: border-box;
-	background-color: #b10f2e
-}
-	
-img {
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-}
-
-/* Text size and fonts */
-
-h1 {
-	font-family: Raleway, sans-serif !important;
-	font-weigh: bold !important;
-	font-size: 28px;
-}
-
-h2 {
-	font-family: 'Josefin Sans', sans-serif !important;
-	font-size: 24px;
-}
-
-h3 {
-	font-family: Raleway, sans-serif !important;
-	font-size: 20px !important;
-	font-weight: bold;
-}
-
-h4 {
-	font-family: Raleway, sans-serif !important;
-	font-size: 16px !important;
-}
-
-/* Button */
-
-.button { 
-font-size: 18px !important;
-padding: 6px 22px;
-border-radius: 8px;
-background-color: #3243c2;
-border:4px solid #3243c2; /* Green */;
-color: white;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-family: 'Josefin Sans', sans-serif ;
-font-weight: bold!important;
-transition-duration: 0.3s;	
-}
-
-.button:hover {
-  background-color: #fdffff;
-  color: #3243c2;
-  border:4px solid #3243c2;
-  font-size: 18px !important;
-  border-radius: 8px;
-}
-
-}
-
-/* Font Color */
-
-.font-blue {
-	color: #3243c2;
-}
-
-.font-orange {
-	color: #de7c5a;
-}
-
-.font-red {
-	color: #b10f2e;
-}
-
-.font-black {
-	color: #280000;
-}
-
-.font-white {
-	color: #fdffff;
-}
-
-/* Table Design*/
-
-table {
-  border-collapse: collapse;
-  width: 100%;
-}
-
-th, td {
-  text-align: left;
-  padding: 8px;
-}
-
-tr:nth-child(even){background-color: #f2f2f2}
-
-th {
-  background-color: #B10F2E;
-  color: white;
-}
-
-/* Contact Form*/
-
-input[type=text], select, textarea {
-  width: 100%; 
-  padding: 12px;
-  border: 1px solid #b10f2e;
-  border-radius: 4px;
-  box-sizing: border-box; 
-  margin-top: 6px;
-  margin-bottom: 16px; 
-  resize: vertical 
-}
-
-/* Button Contact Form */
-input[type=submit] {
-font-size: 18px !important;
-padding: 6px 22px;
-border-radius: 8px;
-background-color: #3243c2;
-border:4px solid #3243c2; /* Green */;
-color: white;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-family: 'Josefin Sans', sans-serif ;
-font-weight: bold!important;
-transition-duration: 0.3s;
-cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #fdffff;
-  color: #3243c2;
-}
-
-.container-contact-form {
-  border-radius: 5px;
-  background-color: #280000;
-  padding: 20px;
-}
-
-/* Re-usable Classes */
-
-.list-inline-item {
-  display: inline;
-	padding: 5px;
-}
-
-.center {
-	align-content: center !important;
-	text-align: center !important;
-}
-
-.corporate-text {
-	text-align: justify;
-}
-
-.main-text {
-	text-align: center;
-
-}
-
-/* Main Page - Header  */
-
-.header {
-	align-content: center;
-	background-color: #280000;
-	color: #fdffff;
-}
-.header-quote {
-	text-align: center;
-	font-size: 30px;
-	padding-left: 40px;
-	padding-right: 40px;
-	padding-bottom: 40px;
-	font-weight: 400;
-	font-family: Raleway, sans-serif
-}
-	
-.word-highlight {
-color: #3243c2;
-font-weight: 1000;
-}
-
-/* Main Page - Section 1 - Main Text */
-
-.section1 {
-	background-color: #fdffff;
-	color: #280000;
-}
-
-.section1-offer {
-	background-color: #B10F2E;
-	color: #fdffff;
-}
-
-.section-corporate {
-	background-color: #fdffff;
-	color:#000000;
-}
-
-
-.img-center {
-	align-content: center !important;
-}
-
-.section1-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0; 
-  text-align: center;
-}
-
-.section1-list {
-	padding-top: 15px;
-	padding-bottom: 15px;
-	font-family: 'Josefin Sans', sans-serif;
-}
-
-.section1-quote {
-	
-	padding: 40px;
-	background-color: #b10f2e
-	
-}
-
-/* Main Page - Section 3 - Values */
-
-.main-value {
-	padding: 40px;
-	font-family: 'Josefin Sans', sans-serif !important;
-}
-
-
-
-
